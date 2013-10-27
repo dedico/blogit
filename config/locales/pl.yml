@@ -1,0 +1,49 @@
+pl:
+  blogit:
+    comments:
+      leave_a_comment: "Zostaw komentarz"
+      name: "Imię *"
+      email_never_displayed: "E-mail * (nigdy go nie wyświetlimy)"
+      your_website: "Twoja strona www"
+      your_comment: "Komentarz *"
+      add_comment: "Dodaj komentarz"
+      adding_comment: "Dodaję komentarz..."
+      wrote: "napisał:"
+      posted_on: "Opublikowano"
+      delete: "usuń"
+      are_you_sure_you_want_to_remove_this_comment: "Jesteś pewien, że chcesz usunąć ten komentarz?"
+      successfully_added_comment: "Komentarz dodany!"
+      successfully_removed_comment: "Komentarz usunięty."
+    posts:
+      written_by: "Napisane przez %{author}, "
+      there_are_no_posts_about: "Przykro nam, nie posiadamy postów na temat \"%{tag}\"."
+      prohibited_this_post_from_being_saved:
+        one: "Post nie został zapisany z powodu jednego błędu:"
+        other: "Post nie został zapisany z powodu %{count} błędów:"
+      give_your_post_a_title: "Wprowadz tytuł"
+      write_something_here: "Napisz tu coś..."
+      tag_placeholder: "pierwszy tag, drugi tag, etc..."
+      tip_you_can_style_your_post_using: "Tip: możesz formatować posty za pomocą %{parser}"
+      or: "lub"
+      cancel: "anuluj"
+      edit: "edytuj"
+      delete: "usuń"
+      are_you_sure_you_want_to_remove_this_post: "Jesteś pewien, że chcesz usunąć ten wpis?"
+      comment:
+        one: "1 komentarz"
+        other: "%{count} komentarze"
+      edit_blog_post: "Edycja posta #%{id}"
+      new_blog_post: "Dodaj posta"
+      write_a_new_blog_post: "Napisz nowego posta"
+      blog_post_was_successfully_created: "Post został zapisany."
+      blog_post_was_successfully_updated: "Post został zaktualizowany."
+      blog_post_was_successfully_destroyed: "Post został usunięty."
+      tags: "Tagi"
+      related_posts: "Powiązane posty"
+      title: Tytuł
+      body: Treść
+    share_bar:
+      facebook: "pl_PL"
+  time:
+    formats:
+      plain_month_only: "%B"
