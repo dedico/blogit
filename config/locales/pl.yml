@@ -19,6 +19,7 @@ pl:
       there_are_no_posts_about: "Przykro nam, nie posiadamy postów na temat \"%{tag}\"."
       prohibited_this_post_from_being_saved:
         one: "Post nie został zapisany z powodu jednego błędu:"
+        few: "Post nie został zapisany z powodu %{count} błędów:"
         other: "Post nie został zapisany z powodu %{count} błędów:"
       give_your_post_a_title: "Wprowadz tytuł"
       write_something_here: "Napisz tu coś..."
@@ -30,7 +31,9 @@ pl:
       delete: "usuń"
       are_you_sure_you_want_to_remove_this_post: "Jesteś pewien, że chcesz usunąć ten wpis?"
       comment:
+        zero: "Brak komentarzy"
         one: "1 komentarz"
+        few: "%{count} komentarzy"
         other: "%{count} komentarze"
       edit_blog_post: "Edycja posta #%{id}"
       new_blog_post: "Dodaj posta"
