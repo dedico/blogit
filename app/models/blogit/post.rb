@@ -12,10 +12,12 @@ module Blogit
 
     self.paginates_per Blogit.configuration.posts_per_page
 
+    mount_uploader :image, Blogit.configuration.image_uploader
+
     # ==============
     # = Attributes =
     # ==============
-    attr_accessible :title, :body, :tag_list, :blogger_type, :blogger_id
+    attr_accessible :title, :body, :tag_list, :blogger_type, :blogger_id, :image
 
     def short_body
       truncate(body, length: 400, separator: "\n")

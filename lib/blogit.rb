@@ -3,6 +3,7 @@ require "acts-as-taggable-on"
 require "kaminari"
 require "redcarpet"
 require "pingr"
+require "carrierwave"
 
 require "blogit/configuration"
 require "blogit/blogs"

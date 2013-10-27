@@ -87,6 +87,10 @@ module Blogit
     # when posts are created, updated or destroyed?
     # Defaults to false
     attr_accessor :ping_search_engines
+
+    # Carrierwave image uploader 
+    # Defaults to nil
+    attr_accessor :image_uploader
     
     # When using redcarpet as content parser, pass these options as defaults.
     REDCARPET_OPTIONS = {
